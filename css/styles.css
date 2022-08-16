@@ -1,0 +1,133 @@
+#body {
+    background-color: brown;
+    width: 100%;
+    height: 1100px;
+}
+
+.header {
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+}
+
+.main {
+    background-color: yellowgreen;
+    width: 100%;
+    display: flex;
+}
+
+aside {
+    background-color: red;
+    width: 15%;
+    height: 2870px;
+}
+
+.holder {
+    width: 85%;
+}
+
+.content {
+    background-color: black;
+    padding: 40px;
+}
+
+.topheader {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card {
+    background-color: aqua;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.section .card:first-child {
+    margin-left: 0px;
+}
+
+.section .card:last-child {
+    margin-right: 0;
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: 76% 24%;
+}
+
+.box {
+    background-color: pink;
+    height: 830px;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.section1 .box:first-child {
+    margin-left: 0px;
+}
+
+.section1 .box:last-child {
+    margin-right: 0;
+}
+
+section {
+    background-color: yellow;
+    width: 100%;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.box1 {
+    background-color: green;
+    height: 170px;
+    margin: 2%;
+    border-radius: 12px;
+}
+
+.section2 .box1:first-child {
+    margin-left: 0px;
+}
+
+.section2 .box1:last-child {
+    margin-right: 0;
+}
+.section3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box2 {
+    background-color: pink;
+    height: 500px;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.section3 .box2:first-child {
+    margin-left: 0px;
+}
+
+.section3 .box2:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background-color: orange;
+    height: 70px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
